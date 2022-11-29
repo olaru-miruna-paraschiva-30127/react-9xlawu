@@ -6,6 +6,7 @@ import {BsCircle} from "react-icons/bs";
 import {MdPlayArrow} from "react-icons/md";
 import {CiTextAlignJustify} from "react-icons/ci";
 import {BsPlusSquare} from "react-icons/bs";
+import SearchBar from "./searchBar";
 
 export default function Page2() {
    let i=0;
@@ -83,12 +84,12 @@ export default function Page2() {
    flexdirection:'row-reverse',
   
    }}>
-     <button style={{ backgroundColor:'white',
+     <a href="https://react-hnjjf3.stackblitz.io/"  style={{ backgroundColor:'white',
    border:'white',height:'20px'}} >
        <div style={{display:'flex',
     flex:1,
    flexdirection:'row-reverse',
-   justifyContent:'space-between'}}><div style={{color:'rgb(127,0,255)'}}><AiOutlineArrowLeft/></div>&nbsp; <div>Back</div></div></button>
+   justifyContent:'space-between'}}><div style={{color:'rgb(127,0,255)'}}><AiOutlineArrowLeft/></div>&nbsp; <div>Back</div></div></a>
   <div style={{fontWeight:'bold',fontSize:"25px"}}>Add New Internship</div>
    <button style={{height:'25px',
    color:'gray',
@@ -130,7 +131,7 @@ export default function Page2() {
      height:'85px'
       }}>
  </div>
-<article style={{ float: 'left', width:'45%', backgroundColor:'rgb(230,231,243)',border:'rgb(230,231,243)',height:'660px'}}>
+<article style={{ float: 'left', width:'45%', backgroundColor:'rgb(230,231,243)',border:'1px solid rgb(230,231,243)',height:'660px'}}>
 <div style={{width:'100%'}}>
   <div style={{width:'100%',height:'55px' ,justifyContent:'space-between',
    display:'flex',
@@ -356,6 +357,14 @@ style={{width:'100%',height:'55px',justifyContent:'space-between',
    borderRadius:'8px',borderColor:'rgb(127,0,255)'}}><BsPlusSquare/>&nbsp;&nbsp;&nbsp;Add More</button></div>
    </div>
 </article>
+<article style={{ float: 'right', width:'55%', backgroundColor:'white',border:'1px solid red',height:'200px'}}>
+<div style={{fontWeight:'bold',fontSize:"22px"}}>Category</div>
+
+
+
+
+   </article>
+   
     </div>
   );
 }
