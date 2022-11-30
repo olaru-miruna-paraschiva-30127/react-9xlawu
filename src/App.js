@@ -85,7 +85,7 @@ export default function Page2() {
   
    }}>
      <a href="https://react-hnjjf3.stackblitz.io/"  style={{ backgroundColor:'white',
-   border:'white',height:'20px'}} >
+   border:'white',height:'20px',textDecoration: 'none'}} >
        <div style={{display:'flex',
     flex:1,
    flexdirection:'row-reverse',
